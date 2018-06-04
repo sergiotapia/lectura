@@ -21,7 +21,9 @@ defmodule Lectura.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:httpoison, "~> 1.1"}
+      {:httpoison, "~> 1.1"},
+      {:html_sanitize_ex, "~> 1.3"},
+      {:floki, "~> 0.20.2"}
     ]
   end
 end
